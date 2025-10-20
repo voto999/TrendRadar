@@ -25,7 +25,7 @@ crawler:
 
 # 推送模式选择
 report:
-  mode: "daily" # 可选: "daily"|"incremental"|"current"
+  mode: "current" # 可选: "daily"|"incremental"|"current"
   rank_threshold: 5 # 排名高亮阈值
 
 notification:
@@ -84,8 +84,6 @@ platforms:
     name: "华尔街见闻"
   - id: "thepaper"
     name: "澎湃新闻"
-  - id: "bilibili-hot-search"
-    name: "bilibili 热搜"
   - id: "cls-hot"
     name: "财联社热门"
   - id: "ifeng"
@@ -98,7 +96,7 @@ platforms:
     name: "知乎"
   - id: "36kr-fast(快讯)"
     name: "36kr"
-  - id: "donews"
+  - id: "donews.com"
     name: "donews"
   - id: "qq-news"
     name: "腾讯新闻"
@@ -110,8 +108,8 @@ platforms:
     name: "微信公众号"
   - id: "wallstreetcn"
     name: "华尔街见闻"
-  - id: "panews"
+  - id: "panewslab.com"
     name: "panews"
-  - id: "odaily"
-    name: "Odaily星球日报"
+  - id: "odaily.news"
+    name: "odaily星球日报"
     
