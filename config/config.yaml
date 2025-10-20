@@ -94,7 +94,7 @@ platforms:
     name: "微博"
   - id: "zhihu"
     name: "知乎"
-  - id: "36kr-fast(快讯)"
+  - id: "36kr"
     name: "36kr"
   - id: "donews.com"
     name: "donews"
